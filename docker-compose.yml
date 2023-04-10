@@ -32,6 +32,6 @@ services:
       - 3020:3000
     networks:
       - expressapiNet
-  
+
 networks:
   expressapiNet:
