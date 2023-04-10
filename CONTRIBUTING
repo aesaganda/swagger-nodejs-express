@@ -1,0 +1,15 @@
+# Katkıda Bulunma
+
+Bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
+
+1. Bu repo'yu fork'layın.
+2. Değişikliklerinizi yapın ve commit'leyin.
+3. Pull request oluşturun.
+
+## Pull Request'ler
+
+Pull request'lerinizde lütfen aşağıdaki kurallara uygun olun:
+
+- Değişikliklerinizin açıkça belirtildiğinden emin olun.
+- Testlerin geçtiğinden emin olun.
+- Kod stil kurallarına uygun olduğundan emin olun.
