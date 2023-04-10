@@ -1,0 +1,37 @@
+version: '3.7'
+services:
+  nosql:
+    image: mongo:4.4.20-rc0-focal
+    container_name: mongo
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Istanbul
+    ports:
+      - 27017:27017
+    networks:
+      - expressapiNet
+
+  nosql-admin:
+    image: mongo-express:latest
+    container_name: mongo-express
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Istanbul
+    ports:
+      - 13081:8081
+    networks:
+      - expressapiNet
+
+  api:
+    image: aesaganda/expressapi:latest
+    container_name: expressapi
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Istanbul
+    ports:
+      - 3020:3000
+    networks:
+      - expressapiNet
+  
+networks:
+  expressapiNet:
