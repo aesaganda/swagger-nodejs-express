@@ -3,14 +3,14 @@
 Bu proje, Node.js ve Express kullanarak oluşturulmuş bir API projesidir.
 
 ## PoC
-API'nin çalıştığı bir PoC için [buraya](#https://apischool.marun.tk/doc) tıklayın.
+API'nin çalıştığı bir PoC için [buraya](https://apischool.marun.tk/doc) tıklayın.
 ## Kurulum
 
 1. Bu repo'yu klonlayın.
 2. `npm install` komutunu çalıştırın.
 3. `npm start` komutunu çalıştırarak projeyi başlatın.
 
-Alternatif olarak [DockerHub](#https://hub.docker.com/repository/docker/aesaganda/expressapi/general) üzerinden Docker image'ını indirebilirsiniz.
+Alternatif olarak [DockerHub](https://hub.docker.com/repository/docker/aesaganda/expressapi/general) üzerinden Docker image'ını indirebilirsiniz.
 
 ## Kullanım
 
