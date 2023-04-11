@@ -1,4 +1,4 @@
-# Proje Adı
+# API School Swagger Project
 
 Bu proje, Node.js ve Express kullanarak oluşturulmuş bir API projesidir.
 
