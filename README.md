@@ -2,6 +2,8 @@
 
 Bu proje, Node.js ve Express kullanarak oluşturulmuş bir API projesidir.
 
+## PoC
+API'nin çalıştığı bir PoC için [buraya](#https://apischool.marun.tk/doc) tıklayın.
 ## Kurulum
 
 1. Bu repo'yu klonlayın.
