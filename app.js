@@ -3,6 +3,12 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 
+const path = require('path');
+
+app.get('/client', (req, res) => {
+    res.sendFile('/app/html-client/index.html');
+});
+
 const port = 3000;
 
 app.get('/', (req, res) => {
