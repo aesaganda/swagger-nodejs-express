@@ -1,5 +1,8 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
+app.use(cors());
+
 const port = 3000;
 
 app.get('/', (req, res) => {
@@ -7,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
+    console.log(`Example app listening at http://apischool.marun.tk:${port}`);
 });
 
 /* Endpoints */
@@ -18,7 +21,7 @@ endpoints(app);
 const mongoose = require('mongoose');
 // const { ObjectId } = require('mongodb'); // or require ('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/apischool', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://mongo:27017/apischool', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

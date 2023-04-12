@@ -5,7 +5,7 @@
     "title": "Marmara Üniversitesi - Açık Kaynak Kodlu Yazılımlar",
     "description": "Rest API Dokümantasyonu"
   },
-  "host": "localhost:3000",
+  "host": "apischool.marun.tk",
   "basePath": "/",
   "tags": [
     {
