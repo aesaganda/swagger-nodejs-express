@@ -13,14 +13,39 @@
       "description": "Node.js ile REST API implementasyonu"
     }
   ],
-  "schemes": ["http", "https"],
+  "schemes": ["https"],
   "paths": {
     "/students": {
       "post": {
         "tags": ["API School"],
         "summary": "Create a new student",
         "description": "CREATE - Create a new resource",
-        "parameters": [],
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "formData",
+            "required": false,
+            "type": "ObjectId"
+          },
+          {
+            "name": "student_no",
+            "in": "formData",
+            "required": true,
+            "type": "Number"
+          },
+          {
+            "name": "name",
+            "in": "formData",
+            "required": true,
+            "type": "String"
+          },
+          {
+            "name": "age",
+            "in": "formData",
+            "required": true,
+            "type": "Number"
+          }
+        ],
         "responses": {
           "201": {
             "description": "Created"
